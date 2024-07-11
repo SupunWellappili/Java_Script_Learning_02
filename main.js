@@ -50,3 +50,19 @@ console.log(a,b,c,d);
 console.log("---------------")
 
 console.table({a,b,c,d});
+
+
+
+let aa = 'Supun Welalapili';
+let bb = 232;
+let cc = true;
+let dd ;
+let ff =null;
+let gg = 22n;
+
+console.log(typeof aa) //String
+console.log(typeof bb) //Number
+console.log(typeof cc) //boolean
+console.log(typeof dd) //Undefined
+console.log(typeof ff) //Object
+console.log(typeof gg) //bigint
