@@ -66,3 +66,21 @@ console.log(typeof cc) //boolean
 console.log(typeof dd) //Undefined
 console.log(typeof ff) //Object
 console.log(typeof gg) //bigint
+
+let tt,ttt,tttt;
+tt=ttt=tttt=2024;
+console.log(tt,ttt,tttt)
+
+const  myName = "Supun Wellappili Galle";
+console.log(myName);
+
+
+console.log(myName[0]);
+console.log(myName.substring(2,7));
+console.log(myName.split('W'))//
+console.log(myName.lastIndexOf('W'))//6
+console.log(myName.charAt('12'))//p
+console.log(myName.endsWith('Galle'))//true
+console.log(myName.replace('Galle','Matara'))//Supun Wellappili Matara
+console.log(myName.localeCompare())
+
