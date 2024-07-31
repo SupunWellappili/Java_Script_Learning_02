@@ -1,4 +1,4 @@
-console.log("hi main.js");
+/*console.log("hi main.js");
 const sName = confirm("Are You Amila Silva? ");
 if (sName == true) {
     let yName = prompt('Enter Your Age?', '50');//Add to Value
@@ -82,5 +82,38 @@ console.log(myName.lastIndexOf('W'))//6
 console.log(myName.charAt('12'))//p
 console.log(myName.endsWith('Galle'))//true
 console.log(myName.replace('Galle','Matara'))//Supun Wellappili Matara
-console.log(myName.localeCompare())
+console.log(myName.length)//22
 
+
+console.log("--------------Arrays--------------");
+
+let s = ['supun',1990,18.14,true,[12,43,54,98]];
+console.log(s)
+console.log(s[4]);//[12,43,54,98]
+console.log(s[4][1]);//43
+console.log(s.indexOf(1990))//1
+console.log(s.reverse())
+let q = 'Hambantota'.split() //Add
+console.log(s.concat(q))
+q[1] ='Australia'; //New Array Added
+console.log(q)
+s.unshift("Hambantota");
+console.log(s)*/
+
+
+function displayName() {
+    console.log("Supun Wellappili function called")
+}
+
+function displayName(name) {
+    console.log(name)
+}
+
+function displayName(address,age) {
+    console.log(address+" "+age)
+}
+
+
+displayName();
+displayName("Supun Wellappili");
+displayName("Galle", 10);

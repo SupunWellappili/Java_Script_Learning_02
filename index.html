@@ -6,11 +6,17 @@
 
 </head>
 <body>
-<h1>AUK Learning</h1>
+<h1 id="header-one">AUK Learning</h1>
 <h3></h3>
 
 
-<script defer type="text/javascript">alert("Welcome JS page!!!")</script>
+<!--<script defer type="text/javascript">alert("Welcome JS page!!!")</script>-->
+<script defer type="text/javascript">
+    document.getElementById('header-one').onclick = function (){
+        // document.getElementById('header-one').innerText = "<h2>Blue Diamond Colour Changed.</h2>"
+        document.getElementById('header-one').innerHTML = "<h2>Blue Diamond Colour Changed.</h2>"
+    }
+</script>
 <script src="main.js"></script>
 </body>
 </html>
