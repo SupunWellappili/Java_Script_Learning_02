@@ -183,3 +183,20 @@ let arr = [12,34,23,43,13,"supun",23,34,true,"Galle",23.43];
 console.log(arr);
 console.log(arr[3]);
 console.log(arr[5]);
+
+let x = "123";
+console.log(x + 1); //1231
+console.log(typeof(x));
+
+let y =123;
+console.log(y+1);
+console.log(typeof(y));
+
+let v = "123hjgh";
+v = Number(v);
+console.log(v);//NaN(Not a Number)
+
+//
+let vv = "123hjgh";
+v = parseInt(v);
+console.log(v);//NaN(Not a Number)
