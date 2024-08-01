@@ -117,3 +117,41 @@ function displayName(address,age) {
 displayName();
 displayName("Supun Wellappili");
 displayName("Galle", 10);
+
+
+console.warn("ddvdsvd")
+console.error("it is error")
+
+
+/*let namee = prompt("Enter Your Name?");
+ console.log(namee);
+ */
+
+ let a =123;
+ console.log(a);
+ console.log("type of :"+typeof(a))
+
+ let b ="Galle IJSE branch"
+ console.log(b);
+ console.log("type of :"+typeof(b));
+
+ let c = true;
+ console.log(c);
+ console.log("type of :"+typeof(c));
+
+ //(2^53) -1
+ let d = 254552n
+ console.log(d);
+ console.log("type of :"+typeof(d));
+
+ let e = null;
+ console.log(e);
+ console.log("type of :"+typeof(e));
+
+ let f;
+ console.log(f);
+ console.log("type of :"+typeof(f));
+
+ console.log(e==f);
+ console.log(e===f);
+
