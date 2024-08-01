@@ -155,3 +155,31 @@ console.error("it is error")
  console.log(e==f);
  console.log(e===f);
 
+
+
+ //Create Function
+const abc = (firstName, age) => {
+    console.log("Your Name is : "+firstName+ " ---- age is : "+age);
+    console.log(`Your Name is : ${firstName} ---- age is : ${age}`);
+}
+
+abc("supunz",23);
+
+
+
+//Create Object
+let ob = {
+    yourName : "Supun",
+    age : "21",
+    address : "Galle",
+    salary : "15000"
+}
+
+console.log(ob.yourName+" "+ ob.age+" "+ ob.address+" "+ob.salary); 
+
+
+//Create Array
+let arr = [12,34,23,43,13,"supun",23,34,true,"Galle",23.43];
+console.log(arr);
+console.log(arr[3]);
+console.log(arr[5]);
