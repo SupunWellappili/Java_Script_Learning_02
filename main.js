@@ -100,6 +100,8 @@ console.log(q)
 s.unshift("Hambantota");
 console.log(s)*/
 
+/////////////////////////////////////////////////////
+
 
 function displayName() {
     console.log("Supun Wellappili function called")
@@ -126,6 +128,10 @@ console.error("it is error")
 /*let namee = prompt("Enter Your Name?");
  console.log(namee);
  */
+
+
+ /////////////////////////////////////////////////////
+
 
  let a =123;
  console.log(a);
@@ -155,6 +161,7 @@ console.error("it is error")
  console.log(e==f);
  console.log(e===f);
 
+/////////////////////////////////////////////////////
 
 
  //Create Function
@@ -184,6 +191,10 @@ console.log(arr);
 console.log(arr[3]);
 console.log(arr[5]);
 
+
+/////////////////////////////////////////////////////
+
+
 let x = "123";
 console.log(x + 1); //1231
 console.log(typeof(x));
@@ -196,7 +207,51 @@ let v = "123hjgh";
 v = Number(v);
 console.log(v);//NaN(Not a Number)
 
-//
+//parseInt | parseFloat
 let vv = "123hjgh";
 v = parseInt(v);
 console.log(v);//NaN(Not a Number)
+
+/////////////////////////////////////////////////////
+
+//Unary Operator
+let q = -10;
+q = -q;
+console.log(q);
+
+let fNumber = 10;
+let lNumber = 20;
+
+console.log(fNumber+lNumber);
+console.log(fNumber-lNumber);
+console.log(fNumber*lNumber);
+console.log(fNumber/lNumber);
+console.log(fNumber%lNumber);
+console.log(fNumber**lNumber);
+console.log(lNumber**fNumber);
+
+
+console.log("50"+3 + 2);//5032
+console.log("50"+3 - 2);//501 (Auto Convert Number Type)
+
+/////////////////////////////////////////////////////
+
+
+console.log("5" * "2");
+
+
+let aa = "Saturdaty "
+let bb = "Saturdaty "
+let cc = "Saturdaty "
+console.log(aa + bb + cc);
+
+let aaa = bbb = ccc = "Saturday-3 ";
+console.log(aaa + bbb + ccc);
+
+
+let g = 10;
+g += 20;
+console.log(g);
+
+/////////////////////////////////////////////////////
+
