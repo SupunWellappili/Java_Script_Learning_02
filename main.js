@@ -290,3 +290,32 @@ console.log(arrz);
 console.log(arrz.pop());
 console.log(arrz);//Remove Last Word
 
+/////////////////////////////////////////////////////
+
+let obj = {
+     name : "Supun Wellappili",
+     address : "Galle",
+     age : 20,
+     situation : false,
+    printName : () => {
+        console.log("Printed");
+    },
+    salary : 23500.00
+
+}
+
+console.log(obj);
+console.log(obj.age);
+console.log(obj.printName());
+
+obj.func = (name) => `My Name is ${name} .`;
+
+obj.class = "Grade 09";//Addition data added
+obj.age = 30; // Function data change ability
+obj.func = "Ok, It's Nothing"//Always change have a ability for JS
+
+
+/////////////////////////////////////////////////////
+
+
+
