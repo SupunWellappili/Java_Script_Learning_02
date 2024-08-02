@@ -274,3 +274,19 @@ console.log(txt.replace('S',"Z"));//First Letter Only Replace
 console.log(txt.replaceAll("u","X"));//All Select Letters Only Replace
 
 /////////////////////////////////////////////////////
+
+let arrz = ["Supun", 2024, "Wellappili", false, 34.43, 686n];
+console.log(arrz);
+console.log(arrz.length);
+console.log(arrz[2]);
+console.log(Array.isArray(arrz));//Is a Array?
+//console.log(arrz.reverse());
+console.log(arrz.unshift("Deference"));//First World Added
+console.log(arrz);
+console.log(arrz.push("Added"));//Last Word added
+console.log(arrz);
+console.log(arrz.shift());//Remove First Word
+console.log(arrz);
+console.log(arrz.pop());
+console.log(arrz);//Remove Last Word
+
