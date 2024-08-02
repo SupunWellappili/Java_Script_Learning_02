@@ -255,3 +255,22 @@ console.log(g);
 
 /////////////////////////////////////////////////////
 
+let txt = "Hasuni Supun Wellappili";
+console.log("length -: "+txt.length);
+console.log("Simple -: "+txt.toLowerCase());
+console.log(`Capital -: ${txt.toUpperCase()}`);
+console.log(txt.__proto__);//(Show Function & Property)
+console.log(txt.indexOf('W'));
+console.log(txt[3]);
+console.log(txt.lastIndexOf('u'));
+console.log(txt.charAt(2));
+console.log(txt.endsWith("f"));//Serach Word
+console.log(txt.split(""));
+console.log(txt.substring(2,16)); //copy --> paste
+console.log(txt.substring(-13));//Not Apply Negative Numbers
+console.log(txt.slice(2,16)); //copy --> Variable --> modifier ability--> paste
+console.log(txt.slice(-10,-2));//Apply Negative Numbers
+console.log(txt.replace('S',"Z"));//First Letter Only Replace
+console.log(txt.replaceAll("u","X"));//All Select Letters Only Replace
+
+/////////////////////////////////////////////////////
